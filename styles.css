@@ -297,6 +297,25 @@ li {
 
 /* responsive */
 
+@media screen and (width > 1500px){
+    .cards-sec {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 1650px;
+    }
+
+    .footer {
+        padding: 200px 150px 30px;
+    }
+
+    .footer .contenido {
+        padding-right: 8rem;
+    }
+}
+
 @media screen and (max-width: 968px) {
     .hero {
         margin: 0em;
