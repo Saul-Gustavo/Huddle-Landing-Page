@@ -62,10 +62,11 @@ body {
 /* hero section */
 
 .hero {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    display: flex;
     align-items: center;
-    margin: 2em;
+    justify-content: space-between;
+    padding: 2em 2em;
+    width: 100%;
 }
 
 .hero .title {
@@ -86,8 +87,13 @@ body {
 }
 
 .hero .hero-img {
-    max-width: 100%;
-    max-height: 100%;
+   width: 100%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .hero .btn-hero {
@@ -292,7 +298,7 @@ li {
 
 @media screen and (max-width: 968px) {
     .hero {
-        margin: 1em;
+        margin: 0em;
         display: flex;
         flex-direction: column;
     }
