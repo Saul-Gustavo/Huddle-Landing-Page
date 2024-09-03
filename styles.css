@@ -310,11 +310,16 @@ body {
         padding: 1rem 2rem;
     }
 
+    .cards-sec {
+        width: 100%;
+        margin: 7rem 0rem 4rem;
+    }
+
     .card {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 4.5rem 3.2rem;
+        padding: 2.5rem 3.5rem;
         gap: 10px;
     }
 
@@ -326,7 +331,8 @@ body {
     }
 
     .img-card {
-        max-width: 70%;
+        max-width: 600px;
+        object-fit: cover;
         display: block;
         margin: 0 auto;
     }
