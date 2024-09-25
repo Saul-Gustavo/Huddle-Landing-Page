@@ -255,6 +255,23 @@ body {
     margin-bottom: 1.8rem;
 }
 
+.attribution {
+    text-align: center;
+    font-size: 0.85rem;
+    background-color: var(--very-dark-cyan);
+    color: white;
+    padding: 10px;
+}
+
+.attribution a {
+    color: white;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: var(--pink);
+}
+
 @media screen and (min-width: 992px) {
 
     .header {
